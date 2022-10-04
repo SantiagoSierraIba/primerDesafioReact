@@ -3,7 +3,7 @@ import logo from '../../assets/logo.png'
 import { styles } from './Navbar.style'
 import LocalMallIcon from '@mui/icons-material/LocalMall';
 
-export const Header = (props) => {
+export const Navbar = (props) => {
   return (
     <header style={styles.container}>
       <img style={styles.imagenes} src={logo} alt="Logo de Wuacamoli" />
@@ -18,5 +18,5 @@ export const Header = (props) => {
   )
 }
 
-export default Header
+export default Navbar
 
