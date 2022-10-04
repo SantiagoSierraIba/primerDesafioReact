@@ -5,9 +5,10 @@ import  Navbar from './Componentes/Navbar/Navbar';
 
 const App = () => {
   const nombre = "Santiago";
+  const apellido = "Sierra"
   return (
     <>
-      <Navbar nombreUsuario={nombre} apellidoUsuario="Sierra" />
+      <Navbar nombreUsuario={nombre} apellidoUsuario={apellido} />
     </>
   );
 };

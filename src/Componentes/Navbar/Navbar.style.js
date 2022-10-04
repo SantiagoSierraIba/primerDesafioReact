@@ -9,8 +9,8 @@ export const styles = {
     imagenes: {
         width: 320,
     },
-    a: {
-        margin: 10,
+    categorias: {
+        margin: 15,
         color: 'black',
     }
 }
