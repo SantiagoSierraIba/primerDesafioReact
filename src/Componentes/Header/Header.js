@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './Header.css';
 import LocalMallIcon from '@mui/icons-material/LocalMall';
 
 export const Header = () => {
