@@ -1,9 +1,7 @@
 import React from 'react';
-import logo from '../../assets/logo.png'
-import { styles } from './Navbar.style'
-import LocalMallIcon from '@mui/icons-material/LocalMall';
-
-
+import logo from '../../assets/logo.png';
+import { styles } from './Navbar.style';
+import CartWidget from './CartWidget';
 
 export const Navbar = (props) => {
 
@@ -18,9 +16,8 @@ export const Navbar = (props) => {
         <a style={styles.categorias} href="">Colecciones</a>
         <a style={styles.categorias} href="">Nosotros</a>
       </nav>
-      <button>
-        <LocalMallIcon fontSize="large" />
-      </button>
+
+      <CartWidget />
 
     </header>
   )

@@ -1,5 +1,6 @@
 import React from "react";
 import './App.css';
+import { ItemListContainer } from "./Componentes/body/ItemListContainer";
 import  Navbar from './Componentes/Navbar/Navbar';
 
 
@@ -9,6 +10,7 @@ const App = () => {
   return (
     <>
       <Navbar nombreUsuario={nombre} apellidoUsuario={apellido} />
+      <ItemListContainer nombreUsuario={nombre} apellidoUsuario={apellido} />
     </>
   );
 };
